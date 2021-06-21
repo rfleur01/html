@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>your page title goes here</title>
+    <meta charset="utf-8" />
+    <style>
+      article {
+        font: 28px 'Helvetica', 'Arial';
+        border: 2px solid black;
+        width: 52%;
+        padding: 10px 15px 15px 15px;
+        margin: 0;
+      }
+
+      h1 {
+        font: bold 56px 'Franklin Gothic Heavy', 'Arial';
+        margin: 0;
+      }
+      
+      header p {
+        margin: 0;
+      }
+      
+      thead {
+        text-align: left;
+      }
+
+      table thead th {
+        padding: 5px 0 10px 0
+      }
+
+      article table:nth-of-type(1) tbody td:last-child {
+        text-align: right;
+      }
+      article table:nth-of-type(2) tbody td:last-child {
+        text-align: right;
+      }
+      article table:nth-of-type(3) tbody td:last-child {
+        text-align: right;
+      }
+      
+      table {
+        width: 100%;
+      }
+
+      article hr:nth-of-type(1) {
+        height: 28px;
+        margin: 5px auto 5px auto;
+        background-color: black;
+        border-color: black;
+      }
+
+      article hr:nth-of-type(2) {
+        height: 14px;
+        margin: 5px auto 5px auto;
+        background-color: black;
+        border-color: black;
+      }
+
+      article hr:nth-of-type(3) {
+        height: 14px;
+        margin: 5px auto 5px auto;
+        background-color: black;
+        border-color: black;
+      }
+
+      article table:nth-of-type(2) thead th {
+        text-align: right;
+      }
+
+      article table:nth-of-type(2) tbody td:last-child {
+        font-weight: bold;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+      article table:nth-of-type(1) tbody td {
+        border-top: 1px solid black;
+        padding: 0;
+        margin-top: 5px;
+      }
+
+      article table:nth-of-type(2) tbody td {
+        border-top: 1px solid black;
+        padding: 0;
+      }
+      article table:nth-of-type(3) tbody td {
+        border-bottom: 1px solid black;
+        padding: 0;
+      }
+      article table:nth-of-type(4) thead td {
+        border-bottom: 1px solid black;
+        padding: 0;
+      }
+
+      .indent {
+        text-indent: 25px;
+      }
+      
+      article p {
+        font-size: 26px;
+        text-indent: -20px;
+        padding-left: 15px;
+      }
+
+      article table:nth-of-type(4) {
+        font-size: 22px;
+      }
+
+      article table:nth-of-type(4) thead td:nth-child(1) {
+        text-align: right;
+      }
+      article table:nth-of-type(4) thead td {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Nutrition Facts</h1>
+        <p>Serving Size 2/3 cup (55g)</p>
+        <p>Servings Per Container About 8</p>
+      </header>
+      <hr />
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" colspan="3">Amount Per Serving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Calories</strong> 230</td>
+            <td>Calories from Fat 40</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <table> 
+        <thead>
+          <tr>
+            <th scope="row" colspan="3">% Daily Value*</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Total Fat</strong> 8g</td>
+            <td>12%</td>
+          </tr>
+          <tr>
+            <td class="indent">Saturated Fat 1g</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td class="indent"><em>Trans</em> Fat 0g</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>Cholesterol</strong> 0mg</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td><strong>Sodium</strong> 160mg</td>
+            <td>7%</td>
+          </tr>
+          <tr>
+            <td><strong>Total Carbohydrate</strong> 37g</td>
+            <td>12%</td>
+          </tr>
+          <tr>
+            <td class="indent">Dietary Fiber 4g</td>
+            <td>16%</td>
+          </tr>
+          <tr>
+            <td class="indent">Sugars 1g</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>Protein</strong> 3g</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <table>
+        <tbody>
+          <tr>
+            <td>Vitamin A</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Vitamin C</td>
+            <td>8%</td>
+          </tr>
+          <tr>
+            <td>Calcium</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Iron</td>
+            <td>45%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        * Percent Daily Values are based on a 2,000 calorie diet.
+          Your daily value may be higher or lower depending on your calorie needs.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <td scope="col">Calories:</td>
+            <td scope="col">2,000</td>
+            <td scope="col">2,500</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Total Fat</td>
+            <td>Less Than</td>
+            <td>65g</td>
+            <td>80g</td>
+          </tr>
+          <tr>
+            <td class="indent">Sat Fat</td>
+            <td>Less Than</td>
+            <td>20g</td>
+            <td>25g</td>
+          </tr>
+          <tr>
+            <td>Cholesterol</td>
+            <td>Less Than</td>
+            <td>300mg</td>
+            <td>300mg</td>
+          </tr>
+          <tr>
+            <td>Sodium</td>
+            <td>Less Than</td>
+            <td>2,400mg</td>
+            <td>2,400mg</td>
+          </tr>
+          <tr>
+            <td>Total Carbohydrate</td>
+            <td></td>
+            <td>300g</td>
+            <td>375g</td>
+          </tr>
+          <tr>
+            <td class="indent">Dietary FIber</td>
+            <td></td>
+            <td>25g</td>
+            <td>30g</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </body>
+</html>

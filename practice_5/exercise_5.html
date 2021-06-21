@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>your page title goes here</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <dl>
+          <dt><label for="category">Categories</label></dt>
+          <dd>
+            <select name="category" id="catgeory" size="5">
+              <option value="Core">Core</option>
+              <option value="Plugins">Plugins and Libraries</option>
+              <option value="Conventions">Conventions</option>
+              <option value="Reviews" selected>Reviews</option>
+              <option value="Opinion" selected>Opinion</option>
+              <option value="People" selected>People</option>
+            </select>
+          </dd>
+
+          <dt><label for="tags">Tags</label></dt>
+          <dd>
+            <select name="tags" id="tags" size="5" multiple>
+              <option value="html">HTMl</option>
+              <option value="css">CSS</option>
+              <option value="javascript">Javascript</option>
+              <option value="ruby">Ruby</option>
+              <option value="rails">Rails</option>
+              <option value="python">Python</option>
+              <option value="django">Django</option>
+            </select>
+          </dd>
+        </dl>
+
+        <input type="submit" value="Filter" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
