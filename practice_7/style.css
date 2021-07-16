@@ -1,0 +1,268 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #545459
+}
+
+div {
+  display: block;
+}
+
+.container {
+  margin: auto;
+  width: 75%;
+  border: 2px solid grey;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+section h1, section h2, section h3 {
+  color: #ce4a4a;
+  margin: 20px 0;
+
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  ;
+  margin: 10px 0;
+  line-height: 35px;
+}
+
+section p {
+  margin-bottom: 25px;
+}
+
+section .border {
+  border: 2px dashed black;
+  padding: 30px;
+  margin: 45px;
+  width: 650px;
+  overflow: hidden;
+}
+
+section .inline-margin a {
+  display: inline;
+  margin: 30px;
+}
+
+section .inline-padding a {
+  display: inline;
+  padding: 30px;
+  color: white;
+  background-color: green;
+}
+
+section .inline-floating a {
+  float: left;
+  color: white;
+  background-color: green;
+  border: 3px solid #006400; 
+  margin: 15px;
+  padding: 25px;
+  width: 120px;
+  text-align: center;
+}
+
+section a {
+  text-decoration: none;
+  color: black;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.no-height-or-width {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.height {
+  height: 60px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  background-color: green;
+}
+
+.width {
+  width: 90px;
+  color: white;
+  background-color: tomato;
+}
+
+.height-and-width {
+  width: 180px;
+  height: 120px;
+  padding: 20px;
+  margin: 20px; 
+  color: white;
+  background-color: pink;
+}
+
+.wrapper.float {
+  margin-bottom: 35px;
+}
+
+.wrapper.float .float-left {
+  float: left;
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid red;
+}
+
+.wrapper.float .float-right {
+  float: right;
+  background-color: tomato;
+  color: white;
+  border: 1px solid red;
+}
+
+.wrapper.float .float-left-set {
+  width: 40%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  float: left;
+  background-color: tomato;
+  color: white;
+}
+
+.wrapper.float .float-right-set {
+  width: 50%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  float: right;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.wrapper.float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper.float a {
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper.inline-block {
+  text-align: center;
+}
+
+.wrapper.inline-block a {
+  background-color: dodgerblue;
+  border: 1px solid #1b95e0;
+  color: white;
+  display: inline-block;
+  margin: 20px 8px 25px;
+  padding: 20px 30px;
+  width: 180px;
+  text-align: center;
+}
+
+#inline-block::after {
+  border-bottom: 2px dashed #545459;
+  content: "";
+  display: block;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#floats h1 {
+  text-align: center;
+}
+
+.wrapper.float-box .box1 {
+  color: white;
+  background-color: tomato;
+  width: 47%;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.wrapper.float-box .box2 {
+  color: white;
+  background-color: dodgerblue;
+  width: 53%;
+  float: right;
+  height: 100px;
+  line-height: 100px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.wrapper.float-box .box3 {
+  color: white;
+  background-color: green;
+  width: 100%;
+  clear: both;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+.wrapper.float-box {
+  text-align: center;
+}
+
+#position li {
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.rel-box{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  right: 90px;
+  bottom: -45px;
+  width: 325px;
+  margin-bottom: 30px;
+  padding: 25px 35px;
+  color: white;
+  background-color: tomato;
+}
+
+.absolute .abs-box1 {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  left: 230px;
+  margin-bottom: 30px;
+  padding: 25px 35px;
+  position: absolute;
+  text-align: center;
+  top: -30px;
+  width: 200px;
+}
+
+.fixed {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  bottom: 50px;
+  color: white;
+  left: 35px;
+  padding: 25px 35px;
+  position: fixed;
+  text-align: center;
+  width: 225px;
+}

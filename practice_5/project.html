@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>your page title goes here</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <dl class="partial one_half left">
+          <dt>
+            <label for="first_name">First Name</label>
+          </dt>
+          <dd>
+            <input type="text" class="first_name" id="first_name" />
+          </dd>
+        </dl><!--
+        --><dl class="partial one_half right">
+          <dt>
+            <label for="last_name">Last Name</label>
+          </dt>
+          <dd>
+            <input type="text" class="last_name" id="last_name" />
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>
+            <label for="email">Email Address</label>
+          </dt>
+          <dd>
+            <input type="email" class="email" id="email" placeholder="name@domain.com"/>
+          </dd>
+        </dl>
+
+        <dl class="partial one_half left">
+          <dt>
+            <label for="city">City</label>
+          </dt>
+          <dd>
+            <input type="text" class="city" id="city" />
+          </dd>
+        </dl><!--
+        --><dl class="partial one_tenth both">
+          <dt>
+            <label for="state">State</label>
+          </dt>
+          <dd>
+            <select name="state" id ="state">
+              <option>AK</option>
+              <option>AL</option>
+              <option>AR</option>
+              <option>AZ</option>
+              <option>CA</option>
+              <option>CO</option>
+              <option>CT</option>
+              <option>DC</option>
+              <option>DE</option>
+              <option>FL</option>
+              <option>GA</option>
+              <option>HI</option>
+              <option>IA</option>
+              <option>ID</option>
+              <option>IL</option>
+              <option>IN</option>
+              <option>KS</option>
+              <option>KY</option>
+              <option>LA</option>
+              <option>MA</option>
+              <option>MD</option>
+              <option>ME</option>
+              <option>MI</option>
+              <option>MN</option>
+              <option>MO</option>
+              <option>MS</option>
+              <option>MT</option>
+              <option>NC</option>
+              <option>ND</option>
+              <option>NE</option>
+              <option>NH</option>
+              <option>NJ</option>
+              <option>NM</option>
+              <option>NV</option>
+              <option>NY</option>
+              <option>OH</option>
+              <option>OK</option>
+              <option>OR</option>
+              <option>PA</option>
+              <option>RI</option>
+              <option>SC</option>
+              <option>SD</option>
+              <option>TN</option>
+              <option>TX</option>
+              <option>UT</option>
+              <option>VA</option>
+              <option>VT</option>
+              <option>WA</option>
+              <option>WI</option>
+              <option>WV</option>
+              <option>WY</option>
+            </select>
+          </dd>
+        </dl><!--
+        --><dl class="partial four_tenths right">
+          <dt>
+            <label for="zip_code">Zip Code</label>
+          </dt>
+          <dd>
+            <input type="number" class="zip_code" id="zip_code" placeholder="00000" min="0" max="5" />
+          </dd>
+        </dl>
+
+        <p>Which of these colors do you like best?<p/>
+          <ul>
+            <li>
+              <label><input type="radio" value="red" name="color"/>Red</label>
+            </li>
+            <li>
+              <label><input type="radio" value="blue" name="color"/>Blue</label>
+            </li>
+            <li>
+              <label><input type="radio" value="green" name="color"/>Green</label>
+            </li>
+            <li>
+              <label><input type="radio" value="yellow" name="color"/>Yellow</label>
+            </li>
+            <li>
+              <label><input type="radio" value="purple" name="color"/>Purple</label>
+            </li>
+            <li>
+              <label><input type="radio" value="pink" name="color"/>Pink</label>
+            </li>
+            <li>
+              <label><input type="radio" value="orange" /name="color">Orange</label>
+            </li>
+          </ul>
+
+        <p>Which web technologies do you want to learn?</p>
+        <ul>
+          <li>
+            <label><input type="checkbox" value="HTML" name="HTML"/>HTML</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="CSS" name="CSS"/>CSS</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="JavaScript" name="JavaScript"/>JavaScript</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="Ruby" name="Ruby"/>Ruby</label>
+          </li>
+          <li>
+            <label><input type="checkbox" value="Rails" name="Rails"/>Rails</label>
+          </li>
+        </ul>
+
+        <dl>
+          <dt>
+            <label for="comments">Comments</label>
+          </dt>
+          <dd>
+            <textarea id="comments" name="comments" rows="6" columns="80"></textarea>
+          </dd>
+        </dl>
+
+        <input type="hidden" class="date" id="date" value="2018-02-17" />
+
+        <input type="submit" />
+
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
